@@ -1,0 +1,7 @@
+SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA='datos' 
+
+SELECT * FROM `personas`
+
+INSERT INTO `personas`(`nombre`, `telefono`) VALUES ([value-1],[value-2])
+
+INSERT INTO `contacto`(`id`, `nombre`, `apellidos`, `telefono`) VALUES ([value-1],[value-2],[value-3],[value-4])
